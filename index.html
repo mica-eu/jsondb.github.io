@@ -1,11 +1,23 @@
-<H1>Website will be ready soon</H1>
+---
+layout: default
+---
 
-JsonDB is a pure java database that stores its data as Json Files.
+<div class="home">
 
-A very small memory footprint, runs embedded within your java program.
+  <h1 class="page-heading">Posts</h1>
 
-Provides APIs that are very similar and inspired by MongoDB.
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-Provides a Apache JxPath based query system.
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
+</div>
