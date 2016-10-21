@@ -1,5 +1,5 @@
 
 
-Theme Designed by Tim O'Brien [t413.com](http://t413.com/)
+Theme Designed by Tim O'Brien
 &mdash;
 [SinglePaged theme](https://github.com/t413/SinglePaged)
