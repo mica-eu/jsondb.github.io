@@ -19,7 +19,7 @@ keywords:    "Jsondb, Java-based, In-Memory, Embedded, Filebased, Database, Encr
 description: "JsonDB is a Opensource, Java-based, In-Memory/Embedded, Database that stores its data as Json Files."
 source_link: "https://github.com/Jsondb/jsondb-core"
 url:         "http://jsondb.io" # the base hostname & protocol for your site
-favicon:     "img/favicon.png"
+favicon:     "img/favicon-database.ico"
 touch_icon:  "img/apple-touch-icon.png"
 google_analytics_key: UA-86156909-1 ## put YOUR key here to enable tracking! (blank to disable)
 
