@@ -14,9 +14,9 @@ markdown: kramdown
 
 
 ### content configuration ###
-title:       "Jsondb A Opensource, Java-based, In-Memory/Embedded database"
+title:       "Jsondb A Opensource, Java-based, In-Memory/Embedded, Securable database"
 keywords:    "Jsondb, Java-based, In-Memory, Embedded, Filebased, Database, Encryption-Support, XPATH based Query, Opensource, MIT License"
-description: "JsonDB is a Opensource, Java-based, In-Memory/Embedded, Database that stores its data as Json Files."
+description: "JsonDB is a Opensource, Java-based, In-Memory/Embedded, Database that stores its data as Json Files, with encryption support."
 source_link: "https://github.com/Jsondb/jsondb-core"
 url:         "http://jsondb.io" # the base hostname & protocol for your site
 favicon:     "img/favicon-database.ico"
